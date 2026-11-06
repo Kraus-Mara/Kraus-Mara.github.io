@@ -1,0 +1,159 @@
+{
+  "records": [
+    {
+      "id": "the-doors",
+      "title": "The Doors",
+      "artist": "The Doors",
+      "year": 1967,
+      "era": "60s",
+      "genre": "Psychedelic Rock",
+      "label": "Elektra",
+      "catalog": "The Doors",
+      "note": "Title : Break on Through (To the Other Side)",
+      "cover": "assets/covers/web/TheDoors.webp",
+      "audio": "assets/music/BreakOnThrough.mp3",
+      "palette": {
+        "bg": "#070906",
+        "ink": "#f4e6c8",
+        "accent": "#2f4a3a",
+        "accent2": "#1b1510"
+      }
+    },
+    {
+      "id": "abbey-road",
+      "title": "Abbey Road",
+      "artist": "The Beatles",
+      "year": 1969,
+      "genre": "Rock, pop, blues, and progressive rock",
+      "label": "Apple Cords",
+      "catalog": "MT-002",
+      "note": "",
+      "cover": "assets/covers/web/AbbeyRoad.webp",
+      "audio": "assets/music/ComeTogether.mp3",
+      "palette": {
+        "bg": "#070906",
+        "ink": "#f4e6c8",
+        "accent": "#2f4a3a",
+        "accent2": "#1b1510"
+      }
+    },
+    {
+      "id": "dire-straits",
+      "title": "Dire Straits",
+      "artist": "Dire Straits",
+      "year": 1978,
+      "era": "70s",
+      "genre": "Rock",
+      "label": "Mercury",
+      "catalog": "MT-003",
+      "note": "Title : Sultans of Swing",
+      "cover": "assets/covers/web/DireStraits.webp",
+      "audio": "assets/music/SultansOfSwing.mp3",
+      "palette": {
+        "bg": "#ece1b6",
+        "ink": "#2a1b10",
+        "accent": "#7b8f6a",
+        "accent2": "#e8d6a8"
+      }
+    },
+    {
+      "id": "deep-purple",
+      "title": "Machine Head",
+      "artist": "Deep Purple",
+      "year": 1972,
+      "era": "70s",
+      "genre": "Hard Rock",
+      "label": "Deep Purple",
+      "catalog": "MT-004",
+      "note": "Title : Highway Star",
+      "cover": "assets/covers/web/MachineHead.webp",
+      "audio": "assets/music/HighwayStar.mp3",
+      "palette": {
+        "bg": "#8a9bb0",
+        "ink": "#1b2230",
+        "accent": "#d96c3b",
+        "accent2": "#f0e5cf"
+      }
+    },
+    {
+      "id": "ziggy-stardust",
+      "title": "Ziggy Stardust",
+      "artist": "David Bowie",
+      "year": 1972,
+      "era": "70s",
+      "genre": "Glam Rock",
+      "label": "Jones/Tintoretto",
+      "catalog": "MT-005",
+      "note": "Title : Soul Love",
+      "cover": "assets/covers/web/ZiggyStardust.webp",
+      "audio": "assets/music/SoulLove.mp3",
+      "palette": {
+        "bg": "#120f2b",
+        "ink": "#f5d7ff",
+        "accent": "#ff3f8e",
+        "accent2": "#38e8ff"
+      },
+      "motif": "grid"
+    },
+    {
+      "id": "static-bloom",
+      "title": "Use Your Illusions",
+      "artist": "Guns N' Roses",
+      "year": 1991,
+      "era": "90s",
+      "genre": "Hard Rock",
+      "label": "Geffen Records",
+      "catalog": "MT-006",
+      "note": "Title : November Rain",
+      "cover": "assets/covers/web/UseYourIllusions.webp",
+      "audio": "assets/music/NovemberRain.mp3",
+      "palette": {
+        "bg": "#c9b6e4",
+        "ink": "#211a2b",
+        "accent": "#e94f8a",
+        "accent2": "#f8efd9"
+      },
+      "motif": "bloom"
+    },
+    {
+      "id": "room-tone",
+      "title": "Hatful of Hollow",
+      "artist": "The Smiths",
+      "year": 1984,
+      "era": "80s",
+      "genre": "Alternative Rock",
+      "label": "Warner Music",
+      "catalog": "MT-007",
+      "note": "Title : Heaven Knows I'm Miserable Now",
+      "cover": "assets/covers/web/HatfulOfHollow.webp",
+      "audio": "assets/music/HeavenKnowsImMiserableNow.mp3",
+      "palette": {
+        "bg": "#6f7a5a",
+        "ink": "#f0e9d2",
+        "accent": "#2c3028",
+        "accent2": "#c97b4a"
+      },
+      "motif": "stripes"
+    },
+    {
+      "id": "signal-noise",
+      "title": "Love Deluxe",
+      "artist": "Sade",
+      "year": 1992,
+      "era": "90s",
+      "genre": "Smooth Soul/Jazz",
+      "label": "Sony Music",
+      "catalog": "MT-008",
+      "note": "Title : Kiss Of Life",
+      "cover": "assets/covers/web/LoveDeluxe.webp",
+      "audio": "assets/music/KissOfLife.mp3",
+      "palette": {
+        "bg": "#0e2a2b",
+        "ink": "#d9fff2",
+        "accent": "#ff5d73",
+        "accent2": "#7ee0c3"
+      },
+      "motif": "glitch"
+    }
+  ]
+}

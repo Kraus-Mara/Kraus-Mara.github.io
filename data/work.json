@@ -1,0 +1,138 @@
+{
+  "projects": [
+    {
+      "id": "computer-vision",
+      "featured": true,
+      "title": "Computer Vision",
+      "org": "Maison de l'Intelligence Artificielle",
+      "place": "Oujda, Morocco",
+      "period": "2025",
+      "role": "AI Engineer",
+      "summary": "Custom object-detection models trained on industrial datasets, then pushed down to embedded hardware.",
+      "description": "Fine-tuned YOLOv8, YOLOv11, RT-DETR and D-Fine on task-specific datasets. Used OpenCV and OpenVINO to make inference fit the deployment target.",
+      "highlights": [
+        "Trained and fine-tuned computer vision models on custom datasets.",
+        "Built an OpenCV/OpenVINO deployment path for constrained hardware.",
+        "Multi-threaded the whole process for the drone (Input channel // Output channel)"
+      ],
+      "stack": [
+        "Kaggle",
+        "Google Colab",
+        "YOLOv8",
+        "YOLOv11",
+        "RT-DETR",
+        "D-Fine",
+        "OpenCV",
+        "OpenVINO"
+      ],
+      "motif": "vision",
+      "screens": [
+        {
+          "file": "assets/work/vision5.jpg",
+          "caption": "Embedded test rig",
+          "type": "image"
+        },
+        {
+          "file": "assets/work/vision4.jpg",
+          "caption": "Sphere detection / OpenCV",
+          "type": "image"
+        },
+        {
+          "file": "assets/work/vision1.mp4",
+          "caption": "Drone test / Oujda",
+          "type": "video",
+          "poster": "assets/work/vision1-poster.jpg"
+        },
+        {
+          "file": "assets/work/vision2.mp4",
+          "caption": "Workshop flight",
+          "type": "video",
+          "poster": "assets/work/vision2-poster.jpg"
+        },
+        {
+          "file": "assets/work/vision3.mp4",
+          "caption": "Ground robot / track test",
+          "type": "video",
+          "poster": "assets/work/vision3-poster.jpg"
+        }
+      ]
+    },
+    {
+      "id": "stock-handler",
+      "featured": false,
+      "title": "Stock Handler",
+      "org": "SPIE Turbomachinery",
+      "place": "Pau, France",
+      "period": "2025—2026",
+      "role": "Project Manager & Software Engineer",
+      "summary": "A custom computer-aided logistics management system for turbomachinery operations — from requirements to Azure.",
+      "description": "Built using Frappe Framework around the reality of the workshop: parts, stock movements, and the people who keep them moving.",
+      "highlights": [
+        "Benchmarked open-source ERP options, then built a module on Frappe Framework.",
+        "Designed and engineered the full structure with Python, JavaScript and MariaDB.",
+        "Established the reproductible development environment.",
+        "Deployed it on Azure."
+      ],
+      "stack": [
+        "Python",
+        "JavaScript",
+        "MariaDB",
+        "NixOS",
+        "Azure"
+      ],
+      "motif": "logistics",
+      "screens": [
+        {
+          "file": "assets/work/SPIE.png",
+          "caption": "Stock Handler example with the framework I used, I can't show you the result due to privacy policy of course.",
+          "type": "image"
+        }
+      ]
+    },
+    {
+      "id": "llvm-vulnerability",
+      "featured": false,
+      "title": "LLVM IR Vulnerability Detection",
+      "org": "Independent research",
+      "place": "Remote",
+      "period": "2026",
+      "role": "ML engineering / systems",
+      "summary": "A memory-safe feature extractor and a deep-learning pass over LLVM IR, covering source, build systems and the supply chain.",
+      "description": "Extracts structural features from LLVM IR with a Rust tool, then trains a Python model to flag vulnerabilities across the software supply chain.",
+      "highlights": [
+        "Rust extractor built for speed and memory safety.",
+        "Feature pipeline over source and build-system IR.",
+        "Python model for vulnerability prediction."
+      ],
+      "stack": [
+        "Rust",
+        "LLVM IR",
+        "Python",
+        "Deep learning"
+      ],
+      "motif": "code",
+      "screens": [
+        {
+          "src": null,
+          "file": "assets/work/llvm_example.png",
+          "caption": "LLVM IR example"
+        },
+        {
+          "src": null,
+          "file": "assets/work/CodePropertyGraph.png",
+          "caption": "Code property graph"
+        },
+        {
+          "src": null,
+          "file": "assets/work/pipeline.png",
+          "caption": "Pipeline"
+        },
+        {
+          "src": null,
+          "file": "assets/work/results.png",
+          "caption": "Results"
+        }
+      ]
+    }
+  ]
+}

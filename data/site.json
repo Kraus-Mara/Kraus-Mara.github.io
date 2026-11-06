@@ -1,0 +1,24 @@
+{
+  "brand": "Antoine KRAUS",
+  "name": "Antoine KRAUS",
+  "handle": "AI engineer",
+  "role": "AI engineer, computer vision and systems",
+  "location": "Pau, France",
+  "email": "antoinep.kraus@gmail.com",
+  "links": [
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/antoinepkraus/"
+    },
+    {
+      "label": "Email",
+      "href": "mailto:antoinep.kraus@gmail.com"
+    },
+    {
+      "label": "Résumé",
+      "href": "assets/Antoine-KRAUS-Resume.pdf",
+      "download": true
+    }
+  ],
+  "footer": "Built by hand. Served by GitHub Pages."
+}

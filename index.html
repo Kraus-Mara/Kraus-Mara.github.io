@@ -1,0 +1,431 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Antoine KRAUS — AI engineer in Pau, France. Computer vision, full-stack systems, reproducible NixOS machines, and a small record shelf.">
+  <meta name="theme-color" content="#0b0806">
+  <meta property="og:title" content="Antoine KRAUS — AI Engineer">
+  <meta property="og:description" content="Selected work in computer vision and systems, a small record shelf, and a reproducible NixOS machine.">
+  <meta property="og:type" content="website">
+  <title>Antoine KRAUS — AI Engineer</title>
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/FiraMonoNerdFont-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/FiraMonoNerdFont-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to the good part</a>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress-bar"></span></div>
+
+  <header class="site-header" id="site-header">
+    <nav class="site-nav" aria-label="Sections">
+      <a href="#work"><span class="nav-num">01</span><span class="nav-label">Work</span></a>
+      <a href="#nixos"><span class="nav-num">02</span><span class="nav-label">NixOS</span></a>
+      <a href="#my-tastes"><span class="nav-num">03</span><span class="nav-label">Musics</span></a>
+    </nav>
+    <div class="header-meta">
+      <span class="status-dot" aria-hidden="true"></span>
+      <span>AI ENGINEER / PAU, FR</span>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- =====================================================
+         HERO
+    ====================================================== -->
+    <section class="hero" id="top">
+      <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow hero-eyebrow">
+          <span>AI TOOLS / NIXOS</span>
+          <span class="eyebrow-rule" aria-hidden="true"></span>
+          <span>Dordogne, FRANCE</span>
+        </p>
+        <p class="hero-byline">
+          Currently looking for an international corporate volunteering
+          <span class="dim">·</span> 2026
+        </p>
+
+        <h1 class="hero-title" aria-label="Antoine Kraus">
+          <span class="hero-title-line">ANTOINE</span>
+          <span class="hero-title-line hero-title-line--italic">KRAUS</span>
+        </h1>
+
+        <p class="hero-lede">
+          I build <em>computer vision</em> systems and the tools around them: custom models,
+          embedded deployment, and the reproducible machines that keep the work honest.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn btn--primary" href="assets/Antoine-KRAUS-Resume.pdf" download>Resume ↓</a>
+        </div>
+
+        <dl class="hero-stats">
+          <!-- <div> -->
+          <!--   <dt>Selected projects</dt> -->
+          <!--   <dd id="hero-project-count">03</dd> -->
+          <!-- </div> -->
+          <!-- <div> -->
+          <!--   <dt>Focus</dt> -->
+          <!--   <dd>CV / sys</dd> -->
+          <!-- </div> -->
+          <div>
+            <dt>Country</dt>
+            <dd>France</dd>
+          </div>
+          <div>
+            <dt>Place</dt>
+            <dd>Dordogne</dd>
+          </div>
+          <div>
+            <dt>Machine</dt>
+            <dd>NixOS</dd>
+          </div>
+        </dl>
+      </div>
+
+      <aside class="hero-vision" aria-label="Webcam detection result">
+        <h2 class="hero-vision-title">Computer Vision</h2>
+        <div class="hero-vision-body">
+          <div class="hero-vision-visual">
+            <figure class="hero-vision-frame">
+              <img src="assets/vision/webcam-frame.jpg" alt="Webcam frame with person and bottle detections." loading="eager" decoding="async">
+            </figure>
+            <dl class="hero-vision-metrics">
+              <div><dt>Inference</dt><dd>38.54 ms</dd></div>
+              <div><dt>Preprocess</dt><dd>3.81 ms</dd></div>
+              <div><dt>Postprocess</dt><dd>2.13 ms</dd></div>
+            </dl>
+          </div>
+          <div class="hero-vision-raw-panel">
+            <p class="hero-vision-raw-title">Raw detection result</p>
+            <pre class="hero-vision-json" tabindex="0" aria-label="Raw detection result JSON">{
+    "images": [
+      {
+        "shape": [
+          360,
+          640
+        ],
+        "speed": {
+          "preprocess": 3.80823,
+          "inference": 38.54,
+          "postprocess": 2.13489
+        },
+        "results": [
+          {
+            "name": "person",
+            "class": 0,
+            "confidence": 0.72784,
+            "box": {
+              "x1": 0.50218,
+              "y1": 0.24011,
+              "x2": 0.99816,
+              "y2": 0.99441
+            }
+          },
+          {
+            "name": "bottle",
+            "class": 39,
+            "confidence": 0.72051,
+            "box": {
+              "x1": 0.19844,
+              "y1": 0.38312,
+              "x2": 0.30017,
+              "y2": 0.86726
+            }
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "imageCount": 1,
+      "functionTimeAlive": 165454.167,
+      "functionTimeCall": 0.495,
+      "task": "detect",
+      "version": {
+        "ultralytics": "8.4.201",
+        "torch": "2.15.0+cpu",
+        "torchvision": "0.29.2+cpu",
+        "python": "3.14.10"
+      }
+    }
+}</pre>
+          </div>
+        </div>
+      </aside>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         SELECTED WORK
+    ====================================================== -->
+    <section class="section work" id="work">
+      <header class="section-head section-head--work">
+        <div class="section-index" aria-hidden="true">
+          <span class="section-index-num">01</span>
+          <span class="section-index-side">WORK</span>
+        </div>
+        <div class="section-heading">
+          <h2>I've worked <em>on</em></h2>
+        </div>
+        <p class="section-intro">
+          Computer vision, logistics software, and the systems underneath.
+        </p>
+      </header>
+
+      <div class="work-feature" id="work-feature">
+        <p class="work-loading">Opening the work file…</p>
+      </div>
+      <div class="work-grid" id="work-grid"></div>
+      <p class="work-note">
+        All media shown above lives in <code>assets/work/</code>; ordering and captions
+        come from <code>data/work.json</code>.
+      </p>
+    </section>
+
+    <!-- =====================================================
+         LINER NOTES — NIXOS
+    ====================================================== -->
+    <section class="section nixos" id="nixos">
+      <header class="section-head section-head--nixos">
+        <div class="section-index" aria-hidden="true">
+          <span class="section-index-num">02</span>
+          <span class="section-index-side">LINER NOTES</span>
+        </div>
+        <div class="section-heading">
+          <p class="eyebrow">THE MACHINE <span class="dim">/ NIXOS + HOME-MANAGER</span></p>
+          <h2>My <em>distro</em></h2>
+        </div>
+        <p class="section-intro">
+          My current OS is NixOS, I installed it during my 2025 internship in Morocco.
+        </p>
+      </header>
+
+      <div class="nix-layout">
+        <div class="screens-panel">
+          <div class="panel-head">
+            <span>SCREENS / 04</span>
+            <span>CLICK TO ENLARGE</span>
+          </div>
+          <div class="screen-grid" id="screen-grid"></div>
+        </div>
+
+        <aside class="sys-card">
+          <div class="sys-card-head"><span class="sys-led" aria-hidden="true"></span> SYSTEM / README <img class="sys-logo" src="assets/img/nixos.svg" alt="NixOS" width="30" height="30"></div>
+          <!-- <div class="sys-host"> -->
+          <!--   <span class="sys-host-label">HOST</span> -->
+          <!--   <strong id="sys-hostname">os</strong> -->
+          <!-- </div> -->
+          <!-- <dl class="sys-specs" id="sys-specs"></dl> -->
+          <pre class="neofetch" id="neofetch" aria-hidden="true"></pre>
+          <p class="sys-note">Mirrored from <a href="https://github.com/Kraus-Mara/nixos-config" target="_blank" rel="noopener">Kraus-Mara/nixos-config</a>.</p>
+        </aside>
+      </div>
+
+      <div class="config-explorer" id="config-explorer">
+        <div class="config-head">
+          <div class="config-title"><span class="prompt">~</span> nixos-config <span class="dim">/ git:(main)</span><span class="cursor" aria-hidden="true"></span></div>
+          <div class="config-actions">
+            <span id="config-meta">flake.nix · 0 lines</span>
+            <button id="config-copy" type="button">copy</button>
+            <a class="config-repo" href="https://github.com/Kraus-Mara/nixos-config" target="_blank" rel="noopener">source ↗</a>
+            <a id="config-raw" href="nixos/flake.nix" target="_blank" rel="noopener">raw ↗</a>
+          </div>
+        </div>
+        <div class="config-tabs" id="config-tabs" role="tablist" aria-label="NixOS configuration files"></div>
+        <div class="code-window" role="region" aria-label="Nix configuration source" tabindex="0">
+          <pre class="code" id="code"><code id="code-inner"></code></pre>
+        </div>
+        <div class="config-foot">
+          <span>flake.nix / hosts / modules / home</span>
+          <span>public repo <span class="dot">·</span> hardware omitted</span>
+        </div>
+      </div>
+      <p class="visually-hidden" id="config-status" aria-live="polite"></p>
+    </section>
+
+    <!-- =====================================================
+         B-SIDE — MY TASTES
+    ====================================================== -->
+    <section class="section listening-room" id="my-tastes">
+      <header class="section-head">
+        <div class="section-index" aria-hidden="true">
+          <!-- <span class="section-index-num">03</span> -->
+          <!-- <span class="section-index-side">B-SIDE</span> -->
+        </div>
+        <div class="section-heading">
+          <h2>My <em>tastes in music</em></h2>
+        </div>
+        <p class="section-intro">
+          A small shelf of records I consider exceptionnal. 
+        </p>
+      </header>
+
+      <div class="shelf-toolbar">
+        <!-- <div class="era-filter" role="group" aria-label="Filter records by decade"> -->
+        <!--   <button class="chip is-active" type="button" data-era="all" aria-pressed="true">All sides</button> -->
+        <!--   <button class="chip" type="button" data-era="60s" aria-pressed="false">60s</button> -->
+        <!--   <button class="chip" type="button" data-era="70s" aria-pressed="false">70s</button> -->
+        <!--   <button class="chip" type="button" data-era="80s" aria-pressed="false">80s</button> -->
+        <!--   <button class="chip" type="button" data-era="90s" aria-pressed="false">90s</button> -->
+        <!-- </div> -->
+        <p class="shelf-hint"><span class="key">CLICK</span> a sleeve to inspect it <span class="dim">/</span> <span class="key">PLAY</span> to listen</p>
+      </div>
+
+      <div class="listening-layout">
+        <div class="shelf-wrap">
+          <div class="shelf" id="shelf">
+            <noscript>Enable JavaScript to browse the record shelf.</noscript>
+          </div>
+        </div>
+
+        <aside class="turntable" id="turntable" aria-label="Record player" data-ready="false">
+          <!-- <div class="turntable-top"> -->
+          <!--   <span class="turntable-kicker">NOW SPINNING</span> -->
+          <!--   <span class="turntable-catalog" id="np-catalog">MT-001</span> -->
+          <!-- </div> -->
+
+          <!-- <div class="deck"> -->
+          <!--   <div class="platter"> -->
+          <!--     <div class="vinyl" id="np-vinyl"> -->
+          <!--       <div class="vinyl-grooves" aria-hidden="true"></div> -->
+          <!--       <div class="vinyl-label" id="np-label"> -->
+          <!--         <span class="vinyl-label-brand">M.T.</span> -->
+          <!--         <span class="vinyl-label-cat" id="np-label-cat">MT-001</span> -->
+          <!--       </div> -->
+          <!--       <span class="vinyl-hole" aria-hidden="true"></span> -->
+          <!--     </div> -->
+          <!--     <div class="tonearm" aria-hidden="true"> -->
+          <!--       <span class="tonearm-base"></span> -->
+          <!--       <span class="tonearm-arm"></span> -->
+          <!--       <span class="tonearm-head"></span> -->
+          <!--     </div> -->
+          <!--   </div> -->
+          <!-- </div> -->
+
+          <div class="np-info" aria-live="polite">
+            <p class="np-artist" id="np-artist">The Velvet Static</p>
+            <h3 class="np-title" id="np-title">Midnight Canary</h3>
+            <p class="np-meta"><span id="np-year">1967</span><span class="dot">·</span><span id="np-genre">Psychedelic soul</span></p>
+            <p class="np-note" id="np-note">A basement tape with the windows open. Horns arrive late, stay too long, and that is the whole point.</p>
+          </div>
+
+          <div class="player">
+            <audio id="audio" preload="metadata"></audio>
+            <div class="player-controls">
+              <button class="round-btn play-btn" id="play-btn" type="button" aria-label="Play record">
+                <svg class="icon-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+                <svg class="icon-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5h4v14H6zM14 5h4v14h-4z"/></svg>
+              </button>
+            </div>
+
+            <div class="seek-row">
+              <span id="current-time">0:00</span>
+              <input type="range" id="seek" min="0" max="100" value="0" step="0.1" aria-label="Seek through the track" disabled>
+              <span id="duration">0:00</span>
+            </div>
+
+            <div class="volume-row">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4zM17 8c1.3 1.1 2 2.4 2 4s-.7 2.9-2 4"/></svg>
+              <input type="range" id="volume" min="0" max="1" step="0.01" value="0.8" aria-label="Volume">
+              <span class="master-status" id="master-status">MASTER PENDING</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         OUTRO / CONTACT
+    ====================================================== -->
+    <section class="outro" id="contact">
+      <div class="outro-inner">
+        <p class="eyebrow">OUTRO <span class="dim">/ 2026</span></p>
+        <h2>Let's build something<br><em>useful.</em></h2>
+        <p class="outro-copy">
+          I'm <span data-site="name">Antoine KRAUS</span> — <span data-site="role">AI engineer</span>.
+          If you have a model to deploy, a logistics tool to untangle, or a machine to make
+          reproducible, the door is open. Just send me an email.
+        </p>
+        <div class="outro-links" id="outro-links">
+          <a href="mailto:antoinep.kraus@gmail.com">antoinep.kraus@gmail.com</a>
+          <a href="https://www.linkedin.com/in/antoinepkraus/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+        <div class="outro-meta">
+          <span>BASE <b data-site="location">Pau, France</b></span>
+          <span>STATUS <b>open to conversations</b></span>
+        </div>
+      </div>
+      <div class="outro-art" aria-hidden="true">
+        <span class="outro-catalog">A.K. / 2026<br>WORK FILE / BACK COVER</span>
+        <div class="barcode"></div>
+        <span class="outro-stamp">THANK YOU<br>FOR LOOKING</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© <span id="year">2026</span> <span data-site="name">Antoine KRAUS</span></span>
+    <span data-site="footer">Built by hand. Served by GitHub Pages.</span>
+    <span>Type: Fira Mono Nerd Font <span class="dot">·</span> <a href="assets/Antoine-KRAUS-Resume.pdf">Résumé</a></span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <!-- =======================================================
+       MODALS / TOASTS
+  ======================================================== -->
+  <dialog class="lightbox work-lightbox" id="work-lightbox" aria-labelledby="work-lightbox-title">
+    <div class="lightbox-inner">
+      <button class="lightbox-close" id="work-lightbox-close" type="button" aria-label="Close work screen">×</button>
+      <div class="lightbox-media">
+        <img id="work-lightbox-img" alt="" hidden>
+        <video id="work-lightbox-video" class="work-lightbox-video" controls playsinline preload="metadata" hidden></video>
+        <div class="lightbox-placeholder" id="work-lightbox-placeholder"></div>
+      </div>
+      <div class="lightbox-meta">
+        <p class="eyebrow" id="work-lightbox-kicker">PLATE 01</p>
+        <h2 id="work-lightbox-title">Stock Handler</h2>
+        <p id="work-lightbox-caption"></p>
+        <p class="lightbox-file" id="work-lightbox-file"></p>
+      </div>
+      <div class="lightbox-nav">
+        <button id="work-lightbox-prev" type="button">← Prev</button>
+        <span id="work-lightbox-count">1 / 4</span>
+        <button id="work-lightbox-next" type="button">Next →</button>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog class="lightbox" id="lightbox" aria-labelledby="lightbox-title">
+    <div class="lightbox-inner">
+      <button class="lightbox-close" id="lightbox-close" type="button" aria-label="Close screen preview">×</button>
+      <div class="lightbox-media">
+        <img id="lightbox-img" alt="" hidden>
+        <div class="lightbox-placeholder" id="lightbox-placeholder"></div>
+      </div>
+      <div class="lightbox-meta">
+        <p class="eyebrow" id="lightbox-kicker">SCREEN 01</p>
+        <h2 id="lightbox-title">First Light</h2>
+        <p id="lightbox-caption"></p>
+        <p class="lightbox-file" id="lightbox-file"></p>
+      </div>
+      <div class="lightbox-nav">
+        <button id="lightbox-prev" type="button">← Prev</button>
+        <span id="lightbox-count">1 / 4</span>
+        <button id="lightbox-next" type="button">Next →</button>
+      </div>
+    </div>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <noscript>
+    <div class="noscript">This page needs JavaScript for the work plates, the record shelf, and the NixOS viewer. The source is all yours.</div>
+  </noscript>
+
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

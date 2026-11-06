@@ -1,0 +1,84 @@
+{
+  "host": {
+    "host": "B550M DS3H",
+    "os": "NixOS 26.11",
+    "kernel": "Linux 7.1.9-zen1",
+    "wm": "Hyprland",
+    "shell": "fish",
+    "terminal": "kitty",
+    "cpu": "AMD Ryzen 5 5500 (12) @ 4.27 GHz",
+    "gpu": "GeForce GTX 980"
+  },
+  "screens": [
+    {
+      "id": "first-light",
+      "title": "Desktop",
+      "caption": "Hyprland, waybar, kitty",
+      "src": null,
+      "file": "assets/screens/nixos1.png",
+      "palette": {
+        "bg": "#d97a4a",
+        "panel": "#f2d6b3",
+        "ink": "#2a1d1a",
+        "accent": "#7d8b6a"
+      },
+      "motif": "dawn"
+    },
+    {
+      "id": "the-rack",
+      "title": "IDE",
+      "caption": "Neovim",
+      "src": null,
+      "file": "assets/screens/nixos2.png",
+      "palette": {
+        "bg": "#141a2e",
+        "panel": "#e8b84b",
+        "ink": "#f2e7d2",
+        "accent": "#ff5d73"
+      },
+      "motif": "rack"
+    },
+    {
+      "id": "night-shift",
+      "title": "File manager",
+      "caption": "Nemo",
+      "src": null,
+      "file": "assets/screens/nixos3.png",
+      "palette": {
+        "bg": "#0b1220",
+        "panel": "#7ee0c3",
+        "ink": "#f2e7d2",
+        "accent": "#ff5d73"
+      },
+      "motif": "code"
+    },
+    {
+      "id": "locked",
+      "title": "Performances",
+      "caption": "Here's my btop running",
+      "src": null,
+      "file": "assets/screens/nixos4.png",
+      "palette": {
+        "bg": "#1b1410",
+        "panel": "#e8a34a",
+        "ink": "#f2e7d2",
+        "accent": "#7d8b6a"
+      },
+      "motif": "lock"
+    }
+  ],
+  "configs": [
+    {
+      "id": "flake",
+      "label": "flake.nix",
+      "path": "nixos/flake.nix",
+      "note": "inputs / four hosts"
+    },
+    {
+      "id": "home-default",
+      "label": "home/default.nix",
+      "path": "nixos/modules/parent_home/default.nix",
+      "note": "recursive home imports"
+    }
+  ]
+}
