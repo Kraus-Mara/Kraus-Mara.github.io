@@ -140,5 +140,5 @@ const server = http.createServer(async (request, response) => {
 
 server.listen(port, "127.0.0.1", () => {
   // eslint-disable-next-line no-console
-  console.log(`Needle & Noise → http://127.0.0.1:${port}/`);
+  console.log(`http://127.0.0.1:${port}/`);
 });
